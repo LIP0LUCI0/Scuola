@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ <category>
+    <pattern>Ciao *</pattern>
+    <template>Ciao, mi chamo JARVIS il mio sopo è fornieti dei nomi di giochi free-to-play</template>
+    <template>Per avere il nome di un gioco free-to-play digita:"Quale gioco free-to-play mi consigli" </template>
+  </category>
+<category>
+    <pattern>😄</pattern>
+    <template>E😈dit bot response</template>
+</category>
+</aiml>

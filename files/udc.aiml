@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Ciao ^</pattern>
+    <template>Ciao, mi chamo JARVIS il mio sopo è fornirti dei nomi di giochi free-to-play<br></br>Vuoi avere qualche titolo?</template>
+  </category>
+  
+  <category>
+    <pattern>No ^</pattern>
+   <template>Arrivederci e grazie</template>
+  </category>
+  
+  
+  <category>
+    <pattern>Si ^</pattern>
+   <template>Per avere il titolo di un gioco free-to-play digita:<br></br>"Quale gioco gratis mi consigli"<br></br>Se il titolo ti interessa inserisci il numero in lettere del gioco per avere più informazioni</template>
+  </category>
+  
+  
+  <category>
+    <pattern>Quale gioco gratis  mi consigli</pattern>
+    <template>
+        <random>
+            <li>1.Counter-Strike: Global Offensive</li>
+            <li>2.Destiny 2</li>
+            <li>3.Warframe</li>
+            <li>4.Fortnite Battle Royale </li>
+            <li>5.Dota 2</li>
+            <li>6.League of Legends</li>
+            <li>7.Hearthstone</li>
+            <li>8.Gwent</li>
+            <li>9.EVE ONLINE</li>
+            <li>10.SMITE</li>
+            <li>11.APEX LEGENDS</li>
+            <li>12.TEAM FORTRESS 2</li>
+            <li>13.CALL OF DUTY: WARZONE</li>
+            <li>14.PATH OF EXILE</li>
+            <li>15.WORLD OF TANKS</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Uno ^</pattern>
+   <template>Counter-Strike: Global Offensive (CS:GO) amplia il gameplay d'azione a squadre presentato per la prima volta 19 anni fa. CS:GO include nuove mappe, personaggi, armi e modalità di gioco e offre versioni aggiornate del classico contenuto di Counter-Strike (de_dust2, ecc.).<br></br>DATA DI RILASCIO:
+21 ago 2012<br></br>Steam:
+<link>
+    <text>CS:GO - Steam Download</text>
+    <url>https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/</url>
+</link>
+</template>
+  </category>
+  
+  <category>
+    <pattern>Due ^</pattern>
+   <template>Destiny 2 è un MMO d'azione con un unico mondo in continua evoluzione, accessibile ovunque, gratuitamente e in qualsiasi momento con gli amici<br></br>DATA DI RILASCIO:
+1 ott 2019<br></br>Steam:
+<link>
+    <text>Destiny 2 - Steam Download</text>
+    <url>https://store.steampowered.com/app/1085660/Destiny_2/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Tre ^</pattern>
+   <template>In Warframe il giocatore prende il controllo di un Tenno, un membro di una razza antica di guerrieri svegliatosi da poco da un sonno criogenico. Guidati da una figura misteriosa chiamata Lotus i Tenno devono combattere contro diverse fazioni nemiche che hanno preso il controllo del Sistema solare.<br></br>DATA DI RILASCIO:
+25 mar 2013<br></br>Digital Extremes:<br></br>Steam:
+<link>
+    <text>Warframe - Digital Extremes Download</text>
+    <url>//www.warframe.com/it</url>
+</link>
+<link>
+    <text>Warframe - Steam Download</text>
+    <url>https://store.steampowered.com/app/230410/Warframe/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Quattro ^</pattern>
+   <template>Fortnite è un gioco Battle Royale gratuito con numerose modalità di gioco per ogni tipo di giocatore. Guarda un concerto, costruisci un'isola o combatti.<br></br>DATA DI RILASCIO: 21 luglio 2017<br></br>EpicGames:
+<link>
+    <text>Fortnite - EpicGames Download</text>
+    <url>https://www.epicgames.com/fortnite/it/battle-pass.com</url>
+</link>
+</template>
+  </category>
+  
+  <category>
+    <pattern>Cinque ^</pattern>
+   <template>In Dota 2 l'obiettivo principale di ciascuna delle due squadre è quello di distruggere la fortezza avversaria. Ogni giocatore controlla un eroe e deve partecipare alla partita coordinandosi con gli altri membri della squadra. Le battaglie avvengono solitamente all'interno di una serie di sentieri che collegano le due basi, fiancheggiati da torri di difesa.<br></br>DATA DI RILASCIO:
+9 lug 2013<br></br>Steam:
+<link>
+    <text>Dota 2 - Steam Download</text>
+    <url>https://store.steampowered.com/app/570/Dota_2/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Sei ^</pattern>
+   <template>League of Legends è un gioco di strategia in cui due squadre di cinque potenti campioni si affrontano per distruggere la base degli avversari. Scegli tra oltre 140 campioni ed effettua giocate epiche, elimina i nemici e abbatti le torri mentre lotti per la vittoria.<br></br>DATA DI RILASCIO: 27 ottobre 2009<br></br>RiotGames:
+<link>
+    <text>League of Legends -  RiotGames Download</text>
+    <url>https://signup.leagueoflegends.com/it-it/signup/index#/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Sette ^</pattern>
+   <template>Hearthstone è un gioco di carte collezionabili a turni in cui i giocatori utilizzano un mazzo di trenta carte, creato dalla propria collezione di carte, per sfidare altri giocatori, completare missioni giornaliere e avanzare nella classifica mensile.<br></br>DATA DI RILASCIO: 11 marzo 2014<br></br>Blizzard:
+<link>
+    <text>Hearthstone - Blizzard Download</text>
+    <url>https://playhearthstone.com/it-it</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Otto ^</pattern>
+   <template>GWENT è un gioco di carte fatto di scelte e conseguenze, in cui l'arma vincente è la tua abilità, non la fortuna. Scegli una fazione, crea un esercito e combatti contro altri giocatori in varie modalità di gioco. Con centinaia di carte da collezionare, eroi carismatici, potenti incantesimi e abilità speciali, potrai attuare strategie sempre nuove.<br></br>DATA DI RILASCIO: 19 mag 2020<br></br>CD Projekt:<br></br>Steam:
+<link>
+    <text>GWENT - CD Projekt download</text>
+    <url>https://www.playgwent.com/it/join</url>
+</link>
+<link>
+    <text>GWENT - Steam download</text>
+    <url>https://store.steampowered.com/app/1284410/GWENT_The_Witcher_Card_Game/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Nove ^</pattern>
+   <template>EVE Online è un MMO spaziale free-to-play guidato dalla community in cui i giocatori possono scegliere il proprio percorso tra innumerevoli opzioni diverse. Sperimenta l'esplorazione dello spazio, immense battaglie PvP e PvE, estrazione mineraria, industria e una fiorente economia per i giocatori in una sandbox in continua espansione.<br></br>DATA DI RILASCIO:
+6 mag 2003<br></br>Steam:
+<link>
+    <text>EVE Online - Steam Download</text>
+    <url>https://store.steampowered.com/app/8500/EVE_Online/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Dieci ^</pattern>
+   <template>Smite è un gioco a squadre 5 contro 5 in cui i giocatori aumentano di livello i personaggi scelti, combattono i servitori e gli dei della squadra nemica con l'obiettivo finale di uccidere il loro Titano. I giocatori possono acquistare oggetti, apprendere e potenziare abilità e acquisire potenti buff da nemici neutrali per aiutare a rendere più forte il loro dio prescelto.<br></br>DATA DI RILASCIO: 8 set 2015<br></br>Hi-Rez:<br></br>Steam:
+<link>
+    <text>Smite - Hi-Rez Download</text>
+    <url>https://www.smitegame.com/</url>
+</link>
+<link>
+    <text>Smite - Steam Download</text>
+    <url>https://store.steampowered.com/app/386360/SMITE/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Undici ^</pattern>
+   <template>Apex Legends è un gioco sparatutto in prima persona basato sulla modalità battle royale.
+  I giocatori possono selezionare eroi prima dell'inizio della partita, i quali hanno a disposizione tre abilità utilizzabili: una tattica, una passiva e una ultimate, che possono essere usate durante il gioco<br></br>DATA DI RILASCIO: 5 nov 2020<br></br> ElectronicArts:<br></br>Steam:
+  <link>
+      <text>Apex Legends - ElectronicArts Download</text>
+      <url>https://www.ea.com/it-it/games/apex-legends</url>
+  </link>
+  <link>
+      <text>Apex Legends - Steam Download</text>
+      <url>https://store.steampowered.com/app/1172470/Apex_Legends</url>
+  </link></template>
+  </category>
+  
+  <category>
+    <pattern>Dodici ^</pattern>
+   <template>Team Fortress 2 è un videogioco di genere sparatutto in prima persona multigiocatore,costruito attorno a due squadre che competono per un obiettivo.  I giocatori possono scegliere di giocare a una delle nove classi disponibili, ognuna con i propri punti di forza e di debolezza.<br></br>DATA DI RILASCIO:10 ott 2007<br></br>ValveCorporation:<br></br>Steam:
+<link>
+    <text>Team Fortress 2 - ValveCorporation Download</text>
+    <url>https://www.teamfortress.com/</url>
+</link>
+<link>
+    <text>Team Fortress 2 - Steam Download</text>
+    <url>https://store.steampowered.com/app/440/Team_Fortress_2/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Tredici ^</pattern>
+   <template>CALL OF DUTY: WARZONE è un gioco sparatutto in prima persona basato sulla modalità battle royale. A differenza di altri Battle Royale, in Warzone i giocatori uccisi vengono portati nel gulag dove prenderanno parte ad un combattimento uno contro uno con un altro giocatore al pari sconfitto in precedenza.<br></br>DATA DI RILASCIO: 10 marzo 2020<br></br>Activision:
+<link>
+    <text>COD: WARZONE - Activision Download</text>
+    <url>https://www.callofduty.com/it/warzone</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Quattordici ^</pattern>
+   <template>Path of Exile è un Action RPG online, con un'ambientazione dark fantasy. Il giocatore controlla un personaggio che esplora un mondo chiamato Wraeclast. Questo percorre caverne, prigioni e grandi spazi aperti combattendo mostri e realizzando gli obiettivi che i vari personaggi non giocanti gli assegnano per guadagnare punti esperienza e trovare nuovi equipaggiamenti. Ogni personaggio possiede una certa quantità di punti vita e di mana (utilizzato per le varie abilità), oltre che un livello che può arrivare fino a 100<br></br>DATA DI RILASCIO:
+23 ott 2013<br></br>GrindingGearGames:<br></br>Steam:
+<link>
+    <text>Path of Exile - GrindingGearGames Download</text>
+    <url>https://www.pathofexile.com/</url>
+</link>
+<link>
+    <text>Path of Exile - Steam Download</text>
+    <url>https://store.steampowered.com/app/238960/Path_of_Exile/</url>
+</link></template>
+  </category>
+  
+  <category>
+    <pattern>Quindici ^</pattern>
+   <template>World of Tanks è un gioco multigiocatore online free-to-play di portata globale dedicato agli scontri tra mezzi corazzati di metà XX secolo. Realizzato su misura per Xbox, World of Tanks è caratterizzato da veicoli e ambienti realistici, e permette ai giocatori di comandare i carri armati più potenti della storia<br></br>DATA DI RILASCIO:
+29 apr 2021<br></br>WargamingGroupLimited:<br></br>Steam:
+<link>
+    <text>World of Tanks - WargamingGroupLimited Download</text>
+    <url>https://worldoftanks.eu/it/</url>
+</link>
+<link>
+    <text>World of Tanks - Steam Download</text>
+    <url>https://store.steampowered.com/app/1407200/World_of_Tanks/</url>
+</link></template>
+  </category>
+  
+  
+  
+  
+  
+</aiml>
